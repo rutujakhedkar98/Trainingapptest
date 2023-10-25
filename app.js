@@ -5,7 +5,6 @@ const cors = require('cors');
 const bodyParser = require("body-parser");
 const errorHandler = require('./utils/errorHandler');
 const path  = require('path');
-const path  = require('path');
 
 
 app.use(express.static(path.join(__dirname, './client/dist')));
