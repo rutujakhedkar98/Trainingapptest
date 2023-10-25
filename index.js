@@ -2,7 +2,6 @@ require('dotenv').config();
 const app = require('./app');
 const mongoose = require('mongoose');
 const path  = require('path');
-const routes  = require('./routes/index');
 const bodyParser = require('body-parser');
 
 
